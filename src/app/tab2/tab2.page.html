@@ -1,5 +1,49 @@
 <ion-content>
 
-TEST TEST TEST
+
+<div class="bar bar-header bar-light" id = "header_main_user">
+        <!--<button class="button button-icon button-clear ion-navicon" ng-click="openMenuLeft()"></button>-->
+        <div style="width:100%" class = "center_user_contents" id = "header_main_user">
+
+          <i class="fa fa-bars top_hb_link" aria-hidden="true"></i>
+
+
+              <img src = "data:image/jpeg;base64,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">
+            <span>Good Afternoon</span>
+            <h3>Chu Ying, Rebecca</h3>
+
+             <div class="dropdown open" style="float: right; padding: 13px">
+            <a href="#" onclick="return false;" role="button" data-toggle="dropdown" id="dropdownMenu1" data-target="#" style="float: left" aria-expanded="true"><i class="fa fa-bell-o" style="font-size: 20px; float: left; color: black"></i></a>
+           <span class="badge badge-danger">6</span>
+           </div>
+           
+
+         
+              <a href = "" class = "ico_ns">
+                <img src = "https://i.ibb.co/hRRxmMC/business.png">
+              Manage <br>ILAS Funds</a>
+            
+              <a href = "" class = "ico_ns">
+                <img src = "https://i.ibb.co/v4LL3Jc/interface.png">
+               Claims</a>
+           
+              <a routerLink = "../../policies-servicing" class = "ico_ns">
+              <img src = "https://i.ibb.co/cYtng6n/hand-paper.png">
+              Policy <br>Servicing</a>
+ 
+        </div>
+
+     
+
+    </div>
+
+
+
+
+
+
+ <a routerLink = "../../policies-servicing" class = "ico_ns">
+              <img src = "https://i.ibb.co/cYtng6n/hand-paper.png">
+              Policy <br>Servicing</a>
 
 </ion-content>
