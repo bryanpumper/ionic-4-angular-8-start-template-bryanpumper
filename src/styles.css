@@ -91,18 +91,7 @@ body{
     text-decoration: none;
     color: #484848;
 }
-.center_user_contents a {
-    display: inline-block;
-    width: 33%;
-    background: #cecece4f;
-    font-size: 12px;
-    float: left;
-    color: #202020;
-    min-height: 3em;
-    text-decoration: none;
-    position: relative;
-    top: 5em;
-}
+
 .center_user_contents svg {
     width: 25px;
     height: auto;
@@ -161,6 +150,7 @@ a.ico_ns:nth-of-type(2) img{
 a.ico_ns img{
     border:none;
     width:auto;
+    border-radius:0px;
 }
 
 
