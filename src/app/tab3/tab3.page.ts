@@ -10,7 +10,7 @@ import Html from '../header/top-header.html';
 export class Tab3Page {
 
   title = 'angularincludehtmltemplate';
-  test = Html;
+  topheader = Html;
 
   constructor() {}
 
