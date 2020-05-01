@@ -35,6 +35,15 @@ const routes: Routes = [
           }
         ]
       },
+       {
+        path: 'policies-servicing',
+        children: [
+          {
+            path: '',
+            loadChildren: '../policies-servicing/policies-servicing.module#PoliciesServicingModule'
+          }
+        ]
+      },
       {
         path: '',
         redirectTo: '/tabs/tab1',
