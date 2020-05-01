@@ -302,8 +302,9 @@ a.item i {
     margin-right: 1em;
 }
 .policy_servicing ul.bottom_links {
-    padding-bottom: 2em;
+        padding-bottom: 2em;
     border-bottom: 1px solid #bcbcbc;
+    padding: 0em 2.5em 2em;
 }
 .policy_servicing .bottom_links a {
     display: block;
