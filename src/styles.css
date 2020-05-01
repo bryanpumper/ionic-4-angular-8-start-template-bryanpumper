@@ -158,6 +158,8 @@ i.fa.fa-bars.top_hb_link {
     text-decoration: none;
     position: relative;
     top: 5em;
+    cursor:hand;
+    cursor:pointer;
 }
 a.ico_ns:nth-of-type(2) img{
     padding-top:1.4em;
