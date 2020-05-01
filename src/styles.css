@@ -1,0 +1,399 @@
+/* Add application styles & imports to this file! */
+@import "~@ionic/angular/css/ionic.bundle.css";
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+::-webkit-scrollbar-track {
+    background: transparent
+}
+.center_user_contents {
+    background: url(https://i.ibb.co/d6vkwzg/top-head-main-bg.png);
+    min-height: 24em;
+    position: relative;
+    background-position: center -3.5vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
+    border: none;
+    margin: 0!important;
+    padding-bottom: 0!important;
+}
+.main_cont_placement{
+    position: relative;
+}
+#main_cont_parent {
+    overflow-y: overlay;
+}
+
+#main_cont_parent::-webkit-scrollbar {
+      width: 4px;
+}
+#main_cont_parent::-webkit-scrollbar-thumb {
+      background-color: rgba(0,0,0,0.3);
+      border-radius: 10rem;
+      border: 1px solid rgba(255, 255, 255, 0);
+      position:absolute;
+      
+}
+#main_cont_parent::-webkit-scrollbar-track-piece:start {
+      background: transparent;
+}
+#main_cont_parent::-webkit-scrollbar-track-piece:end{
+      background: transparent;
+}
+
+/*-the Tabs (remove for now)-*/
+.tab-nav.tabs {
+    display: none;
+}
+
+/*the badge style*/
+.badge-danger {
+    background-color: #db5565;
+}
+.badge {
+    padding: 3px 5px 2px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: inline-block;
+    min-width: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1;
+    vertical-align: baseline;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/*Top User details*/
+.center_user_contents {
+    padding: 2em 0em 2em;
+    text-align: center;
+}
+.center_user_contents ion-col {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 1.3em;
+    letter-spacing: 0.05em;
+    padding-top: 20px;
+    display: block;
+}
+.center_user_contents ion-col a {
+    text-decoration: none;
+    color: #484848;
+}
+.center_user_contents a {
+    display: inline-block;
+    width: 33%;
+    background: #cecece4f;
+    font-size: 12px;
+    float: left;
+    color: #202020;
+    min-height: 3em;
+    text-decoration: none;
+    position: relative;
+    top: 5em;
+}
+.center_user_contents svg {
+    width: 25px;
+    height: auto;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+    margin-top: 0.3em;
+}
+.center_user_contents svg path {
+    fill: #484848!important;
+}
+.center_user_contents {
+    margin-bottom: 1em;
+}
+.center_user_contents img {
+    width: 8em;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    margin-bottom: 1em;
+    border-radius:100%;
+}
+.center_user_contents span{
+    font-family: 'Allura', cursive;
+    font-size: 2.4em;
+    color: #fff;
+}
+.center_user_contents h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.9em;
+    margin-top: 0em;
+}
+.center_user_contents img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 100%;
+    width: 6em;
+    border: 1px solid #fff;
+}
+
+/*Mid Contents*/
+.mid_container h4 i {
+    font-size: 20px;
+    padding-left: 0.5em;
+}
+.mid_container h4 {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1em;
+    margin-top:0;
+    padding-top: 0;
+    
+}
+.mid_container h4 a {
+    color: #333;
+    text-decoration: none;
+}
+.mid_container .level_thumb ion-col {
+    text-align: center;
+}
+.level_thumb {
+    margin-bottom: 1em;
+}
+.level_thumb img, .level_thumb b, .level_thumb span {
+    display: block;
+    margin: 0 auto;
+}
+.level_thumb b {
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+}
+.small_grey{
+    color:#606060;
+}
+
+
+/*-Prefoot links-*/
+.mid_container {
+    background: url(https://i.ibb.co/Xy2b5b2/foot-bg-lite.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.mid_container.prefoot h5 span {
+    float: right;
+    font-size: 15px;
+    font-weight: 100;
+}
+.mid_container.prefoot h5 b{
+    padding-left: 1em;
+}
+.mid_container.prefoot h5 {
+    display: block;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 0.5em;
+}
+
+.bottom_links a span b {
+    padding: 0 0.5em;
+}
+.bottom_links a span {
+    float: right;
+}
+.bottom_links a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    padding: 0.7em 0;
+}
+.mid_container.prefoot {
+    padding: 0.5em 1.5em 0em 1.5em;
+    border-radius: 30px 30px 0px 0px;
+    background: #fff;
+    box-shadow: 0px -11px 15px #c1c1c180;
+    position: relative;
+    top: -1em;
+}
+.bar-light .button.button-clear, .fa-bell-o {
+    color: #fff!important;
+}
+
+
+/*-Floating Menu-*/
+.bar.bar-positive {
+    border-color: #e6c63b;
+    background-color: #e6c63b;
+    color: #fff;
+}
+.menu {
+    background-color: #143945;
+}
+.item {
+    border-color: #ddd;
+    background-color: #143945;
+    color: #f2f2f2!important;
+    border-width: 0px;
+    font-size: 15px;
+}
+a.item:hover, a.item:focus {
+    background: #109cca!important;
+}
+a.item i {
+    font-size: 20px!important;
+}
+.item-icon-left {
+    padding-left: 40px;
+}
+
+/*-POLICY SERVICING-*/
+.mid_container.prefoot.policy_servicing {
+    box-shadow: none;
+    top: 0em;
+}
+.policy_servicing p {
+    color: #707070;
+    display: block;
+    line-height: 2.3em;
+}
+.policy_servicing p img {
+    float: left;
+    display: inline-block;
+    margin-right: 1em;
+}
+.policy_servicing ul.bottom_links {
+    padding-bottom: 2em;
+    border-bottom: 1px solid #bcbcbc;
+}
+.policy_servicing .bottom_links a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    padding: 1.3em 2.5em;
+}
+.policy_servicing .bottom_links a span i {
+    float: right;
+}
+.policy_servicing .bottom_links a span {
+    float: left;
+    display: block;
+    width: 100%;
+}
+.policy_servicing ul.bottom_links li:first-child a {
+    padding-top: 0;
+}
+.policy_servicing ion-row:nth-of-type(4) ul.bottom_links {
+    border: 0!important;
+    padding-bottom: 1em;
+}
+a.goup_link {
+    color: black;
+    font-size: 55px;
+    margin: 0.5em 0 0;
+    display: block;
+}
+
+/*-the Policies Top Nav-*/
+.bar.bar-light.single-min h3 {
+    padding-top: 0.1em;
+}
+.bar.bar-light.single-min {
+    background: #f4c407;
+}
+.single-min{
+    position: relative;
+}
+.single-min a {
+    color: #333;
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2.2em;
+    position: relative;
+    left: 1em;
+}
+.single-min a i.icon.ion-ios-arrow-left {
+    font-size: 1.3em;
+    padding-right: 0.2em;
+}
+
+/*-Policies Page-*/
+.policy_servicing.policies p {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    display: block;
+    margin-bottom: 0em;
+    font-weight: 600;
+    color: #6c8ca9;
+}
+.policy_servicing.policies .bottom_links a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    padding: 0.5em 0em 1.7em!important;
+    font-weight: 100!important;
+}
+.policies .bottom_links a span b {
+    padding: 0 0em;
+    font-weight: 100;
+}
+.policy_servicing.policies ul.bottom_links {
+    padding-bottom: 2em;
+    border-bottom: 0px solid #bcbcbc;
+}
+span.below_linked_t b {
+    float: right;
+}
+span.below_linked_t {
+    color: #7b7b7b!important;
+    display: block;
+    padding: 0.2em 0;
+}
+.policy_servicing.policies .bottom_links a span i {
+    float: right;
+    font-size: 3em;
+    color: #a1a1a1;
+    right: 0px;
+    position: absolute;
+    top: 0px;
+}
+.policy_servicing.policies .bottom_links a span {
+    position: relative;
+}
+.policy_servicing.policies ion-col {
+    padding: 1em;
+    background: white;
+    box-shadow: 0px 0px 10px #cececefa;
+    border-radius: 5px;
+}
+.policy_servicing.policies ion-row {
+    margin-bottom: 2em;
+}
+.policy_servicing.policies ion-row:nth-of-type(4) ul.bottom_links {
+    padding-bottom: 2em!important;
+}
+ion-view.policies {
+    background: #e4e4e4;
+}
+.policies .mid_container.prefoot {
+    background: transparent;
+}
+
+/*-pages-*/
+ion-grid.page_contents {
+    line-height: 2em;
+    padding: 0 2em;
+}
