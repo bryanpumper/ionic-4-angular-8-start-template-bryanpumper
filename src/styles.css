@@ -50,6 +50,14 @@ body{
 .tab-nav.tabs {
     display: none;
 }
+i.fa.fa-bars.top_hb_link {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 28px;
+}
+
 
 /*the badge style*/
 .badge-danger {
@@ -71,7 +79,13 @@ body{
     text-align: center;
     border-radius: 10px;
 }
-
+.dropdown.open .fa-bell-o {
+    color: #ffffff!important;
+    top: 20px;
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+}
 
 
 /*Top User details*/
