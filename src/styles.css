@@ -1,6 +1,8 @@
 /* Add application styles & imports to this file! */
 @import "~@ionic/angular/css/ionic.bundle.css";
 
+@import '~font-awesome/css/font-awesome.css';
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -11,7 +13,7 @@ body{
     background: url(https://i.ibb.co/d6vkwzg/top-head-main-bg.png);
     min-height: 24em;
     position: relative;
-    background-position: center -3.5vw;
+    background-position: center -1.5vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -141,6 +143,18 @@ body{
     border-radius: 100%;
     width: 6em;
     border: 1px solid #fff;
+}
+.center_user_contents a {
+    display: inline-block;
+    width: 33%;
+    background: #cecece4f;
+    font-size: 12px;
+    float: left;
+    color: #202020;
+    min-height: 3em;
+    text-decoration: none;
+    position: relative;
+    top: 5em;
 }
 
 /*Mid Contents*/
